@@ -1,0 +1,345 @@
+# ============================================================================
+# Environment Variables & Secrets - CRITICAL
+# ============================================================================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+.env.*.override
+.env*.local
+*.env
+
+# ============================================================================
+# AWS & Cloud Credentials
+# ============================================================================
+.awsconfig
+.aws/
+.aws-credentials
+aws-credentials.json
+credentials.json
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+private_key.pem
+public_key.pem
+
+# ============================================================================
+# API Keys, Tokens & Authentication
+# ============================================================================
+.apikeys
+apikeys.json
+tokens.json
+*.token
+oauth-tokens.json
+session-store.json
+auth-tokens.json
+.api-keys
+.secrets
+secrets.json
+.api-secrets
+
+# ============================================================================
+# SSH & PEM Files
+# ============================================================================
+*.pem
+*.pub
+.ssh/
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# ============================================================================
+# Dependencies & Package Manager
+# ============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+pnpm-lock.yaml
+package-lock.json.old
+yarn.lock.local
+
+# ============================================================================
+# Build & Distribution
+# ============================================================================
+dist/
+dist-*
+build/
+out/
+*.tsbuildinfo
+public/bundle.*
+.next/
+.nuxt/
+.cache/
+
+# ============================================================================
+# IDE & Editor Files
+# ============================================================================
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.idea/
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.emacs.d/
+.vim/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ============================================================================
+# Logs & Debugging
+# ============================================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+DEBUG
+
+# ============================================================================
+# Testing & Coverage
+# ============================================================================
+coverage/
+*.lcov
+.nyc_output
+test-results/
+.mocha_output
+.istanbul_output
+
+# ============================================================================
+# Runtime & Process Management
+# ============================================================================
+pids/
+*.pid
+*.seed
+*.pid.lock
+.nuxt
+.cache
+dist
+.node_modules
+
+# ============================================================================
+# Docker Overrides
+# ============================================================================
+docker-compose.override.yml
+.dockerignore.local
+
+# ============================================================================
+# OS Generated Files
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.AppleDouble
+.LSOverride
+
+# ============================================================================
+# Git-related
+# ============================================================================
+.git/
+.gitmodules
+.gitkeep
+
+# ============================================================================
+# Database Files & Dumps
+# ============================================================================
+*.sql
+*.dump
+*.backup.sql
+.pgpass
+db.sqlite3
+*.db
+dump.rdb
+*.sqlite
+*.sqlite3
+
+# ============================================================================
+# Temporary & Cache Files
+# ============================================================================
+tmp/
+temp/
+.tmp/
+.temp/
+cache/
+.cache/
+.parcel-cache/
+
+# ============================================================================
+# Deployment Scripts & Local Configs
+# ============================================================================
+deploy-local.sh
+deploy-custom.sh
+*-deploy-custom.sh
+config.local.js
+config.prod.js
+settings.local.json
+.deploy-config
+deployment.config.local.js
+
+# ============================================================================
+# PM2 & Process Management
+# ============================================================================
+pids/
+logs/
+pm2-logs/
+
+# ============================================================================
+# Analysis & Generated Reports
+# ============================================================================
+analysis-data/
+reports/
+*.csv
+*.xlsx
+*.xls
+trajectory-*.json
+
+# ============================================================================
+# Frontend Specific
+# ============================================================================
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/.nuxt/
+.next/
+out/
+
+# ============================================================================
+# Backend Specific
+# ============================================================================
+backend/node_modules/
+backend/dist/
+backend/build/
+
+# ============================================================================
+# Backup & Legacy Files
+# ============================================================================
+*.backup
+*.bak
+*.backup.*
+*-backup.*
+.backup/
+legacy/
+.legacy/
+
+# ============================================================================
+# Performance & Monitoring
+# ============================================================================
+perf-*.json
+metrics/
+*.profile
+
+# ============================================================================
+# Any Files with 'secret', 'credential', 'token', 'password' in name
+# ============================================================================
+*credentials*
+*secret*
+*token*
+*password*
+*sensitive*
+*private*
+
+# ============================================================================
+# Lock Files (environment-specific)
+# ============================================================================
+package-lock.json (usually committed, but if environment-specific, uncomment)
+# package-lock.json
+
+# ============================================================================
+# Dependency directories
+# ============================================================================
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Database
+*.sqlite
+*.db
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+/coverage
+
+# Misc
+.eslintcache
+
+# Google Cloud SDK
+google-cloud-sdk/
+google-cloud-cli-*.tar.gz
+
+# Tar archives and compressed files
+*.tar.gz
+*.tar
+*.zip
+*.rar
+*.7z

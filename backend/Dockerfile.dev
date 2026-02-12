@@ -1,0 +1,18 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+COPY tsconfig.json ./
+
+# Install dependencies including dev dependencies
+RUN npm install
+
+# Copy source code
+COPY . .
+
+# Expose the API port
+EXPOSE 5000
+
+# Start in development mode with hot reload
+CMD ["npm", "run", "dev"]
